@@ -3,7 +3,7 @@
     Delete Row
   </button>
   <mat-table #table [dataSource]="dataSource">
-
+    
      <ng-container matColumnDef="select">
       <mat-header-cell *matHeaderCellDef>
         <mat-checkbox (change)="$event ? masterToggle() : null"
@@ -44,8 +44,4 @@
              (click)="selection.toggle(row)">
     </mat-row>
   </mat-table>
- 
-
-</div>
-
- 
+</div> 
