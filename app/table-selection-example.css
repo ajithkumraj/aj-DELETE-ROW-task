@@ -1,0 +1,14 @@
+.example-container {
+ height:300px;
+ width:500px;
+}
+
+.mat-table {
+ height:300px;
+ width:500px;
+ overflow:auto;
+}
+
+.mat-column-select {
+  overflow: visible;
+}
