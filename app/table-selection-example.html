@@ -3,7 +3,7 @@
     Delete Row
   </button>
   <mat-table #table [dataSource]="dataSource">
-    
+
      <ng-container matColumnDef="select">
       <mat-header-cell *matHeaderCellDef>
         <mat-checkbox (change)="$event ? masterToggle() : null"
@@ -30,13 +30,13 @@
     </ng-container>
 
      <ng-container matColumnDef="weight">
-      <mat-header-cell *matHeaderCellDef> Weight </mat-header-cell>
-      <mat-cell *matCellDef="let element"> {{element.weight}} </mat-cell>
+      <mat-header-cell *matHeaderCellDef> Age </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.Age}} </mat-cell>
     </ng-container>
 
      <ng-container matColumnDef="symbol">
-      <mat-header-cell *matHeaderCellDef> Symbol </mat-header-cell>
-      <mat-cell *matCellDef="let element"> {{element.symbol}} </mat-cell>
+      <mat-header-cell *matHeaderCellDef> Place </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.Place}} </mat-cell>
     </ng-container>
 
     <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>

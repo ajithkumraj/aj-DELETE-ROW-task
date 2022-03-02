@@ -54,15 +54,15 @@ export class TableSelectionExample {
 export interface Element {
   name: string;
   position: number;
-  weight: number;
-  symbol: string;
+  Age: number;
+  Place: string;
 }
 
 const ELEMENT_DATA: Element[] = [
-  { position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H' },
-  { position: 2, name: 'Helium', weight: 4.0026, symbol: 'He' },
-  { position: 3, name: 'Lithium', weight: 6.941, symbol: 'Li' },
-  { position: 4, name: 'Beryllium', weight: 9.0122, symbol: 'Be' },
-  { position: 5, name: 'Boron', weight: 10.811, symbol: 'B' },
-  { position: 6, name: 'Carbon', weight: 12.0107, symbol: 'C' },
+  { position: 1, name: 'Ajith',  Age:  23, Place: 'karur' },
+  { position: 2, name: 'Venom', Age: 24, Place: 'erode' },
+  { position: 3, name: 'Kishore', Age:25, Place: 'coimbatore' },
+  { position: 4, name: 'Suriya', Age: 26, Place: 'tirupur' },
+  { position: 5, name: 'Ravi', Age: 27, Place: 'namakkal' },
+  { position: 6, name: 'Risha', Age: 28, Place: 'salem' },
 ];
